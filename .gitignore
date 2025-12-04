@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model or large artifacts
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Local data / temp
+data/
+datasets/
+*.csv
+*.jsonl
+
+# Colab artifacts
+.colab/
